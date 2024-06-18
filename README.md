@@ -29,8 +29,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Observe ICMP Traffic
 - Observe SSH Traffic
 - Observe DHCP Traffic
-- Observer DNS Traffic
-- Observer RDP Traffic
+- Observe DNS Traffic
+- Observe RDP Traffic
 - Lab Cleanup (DON'T FORGET THIS)
 
 <h2>Actions and Observations</h2>
@@ -79,9 +79,41 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="600" alt="Screenshot 2024-06-15 at 12 23 13 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/caf1681f-3196-4912-96f2-12bc4696fff4">
+<img width="600" alt="Screenshot 2024-06-15 at 12 25 56 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/94630be8-77e2-48f5-8759-459a410b9357">
+<img width="600" alt="Screenshot 2024-06-15 at 12 27 48 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/b3db07ed-8907-4afe-bb33-35474344eac7">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+- **Observe SSH Traffic**
+- Back in Wireshark, filter for SSH traffic only
+- From your Windows 10 VM, "SSH into" your Ubuntu Virtual Machine (via its private IP address)
+  1. Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+  2. Exit the SSH connention by typing 'exit' and presssing [Enter]
 </p>
 <br />
+
+<p>
+<img width="600" alt="Screenshot 2024-06-15 at 12 38 29 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/a73d2510-b8b3-4a1d-b718-4906998effa2">
+</p>
+<p>
+  
+- **Observe DHCP Traffic**
+- Back in Wireshark, filter for DHCP traffic only
+- From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig / renew)
+  1. Observe the DHCP traffic appearing in WireShark
+</p>
+<br />
+
+<p>
+<img width="600" alt="Screenshot 2024-06-15 at 12 41 55 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/e08d98d9-90bc-45ed-9818-55558fefdc01">
+</p>
+<p>
+  
+- **Observe DNS Traffic**
+- **Observe RDP Traffic**
+- **Lab Cleanup (DON'T FORGET THIS)**
+</p>
+<br />
+
