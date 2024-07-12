@@ -39,7 +39,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
   
-- Log-In to Microsoft Azure
+- Log-In to Microsoft Azure by going to https://portal.azure.com
 </p>
 
 <p>
@@ -53,24 +53,23 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
   
 - Click "Resources" icon at home page
-- Select Create New Resource Group
+- Select Create New Resource Group ("Tejanos")
 - Return to Home page and Click "Virtual Machines" icon
-- Create Windows 10 Virtual Machine inside of the created Resourse group
+- Create Windows 10 Virtual Machine inside of the created Resourse group ("VM-1")
 - Notice the details of the Virtual Machine 
 </p>
 
 <p>
-<img width="300" alt="Screenshot 2024-06-15 at 11 22 08 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/7b2a4aa9-d866-4d3d-8408-e181083c6b43">
-<img width="300" alt="Screenshot 2024-06-15 at 11 25 47 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/38db5569-8e4e-4d28-8f8d-c98f43ff6483">
+<img width="300" alt="Screenshot 2024-07-11 at 11 12 07 AM" src="https://github.com/user-attachments/assets/c6c9d421-502c-496c-bdec-0b8ddea74cc9">
+<img width="300" alt="Screenshot 2024-07-11 at 11 23 41 AM" src="https://github.com/user-attachments/assets/c4c6dafd-0544-4f90-9c53-4dcfd4160ebf">
 <img width="300" alt="Screenshot 2024-06-15 at 11 31 19 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/a49b0d58-85f1-4510-adf1-bc86f30857ee">
 <img width="300" alt="Screenshot 2024-06-15 at 11 41 20 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/a156e00e-d00b-49e7-b2b5-8a61068ac63b">
 </p>
 <p>
-  
-- Click Resources icon at home page
-- Select Create New Resource Group
-- Create Windows 10 Virtual Machine 
-- Create Linux(Ubuntu) VM in same Resource Group and Virtual Network
+
+- Go to home page, Click "Virtual Machine"
+- Create Linux(Ubuntu) Virtual Machine ("VM2") in same Resource Group as VM-1 ("Tejanos")
+- Resource Groups and observe both Virtual Machines are in same Resource Group and Virtual Network 
 </p>
 <br />
 
