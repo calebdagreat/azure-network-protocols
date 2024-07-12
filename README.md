@@ -31,6 +31,35 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
+
+  - **Create our Resources**
+</p>
+<p>
+<img width="300" alt="Screenshot 2024-07-11 at 11 02 47 AM" src="https://github.com/user-attachments/assets/466c2892-7afb-41ed-b66b-86e5e16e51d3">
+</p>
+<p>
+  
+- Log-In to Microsoft Azure
+</p>
+
+<p>
+<img width="300" alt="Screenshot 2024-07-11 at 11 05 49 AM" src="https://github.com/user-attachments/assets/6ec78856-9dc5-406b-bba1-6f8801aea1be">
+<img width="300" alt="Screenshot 2024-07-11 at 11 10 31 AM" src="https://github.com/user-attachments/assets/d897eef6-deb6-4f99-9da0-ac3d23ecec86">
+<img width="300" alt="Screenshot 2024-07-11 at 11 13 07 AM" src="https://github.com/user-attachments/assets/bcdb18d9-58ec-46f1-a1f4-2d0526d254b8">
+<img width="300" alt="Screenshot 2024-07-11 at 11 18 03 AM" src="https://github.com/user-attachments/assets/2f591390-2d1a-46f4-87fd-aee40bb9c4bb">
+<img width="300" alt="Screenshot 2024-06-15 at 11 25 47 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/38db5569-8e4e-4d28-8f8d-c98f43ff6483">
+  
+</p>
+<p>
+  
+- Click "Resources" icon at home page
+- Select Create New Resource Group
+- Return to Home page and Click "Virtual Machines" icon
+- Create Windows 10 Virtual Machine inside of the created Resourse group
+- Notice the details of the Virtual Machine 
+</p>
+
+<p>
 <img width="300" alt="Screenshot 2024-06-15 at 11 22 08 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/7b2a4aa9-d866-4d3d-8408-e181083c6b43">
 <img width="300" alt="Screenshot 2024-06-15 at 11 25 47 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/38db5569-8e4e-4d28-8f8d-c98f43ff6483">
 <img width="300" alt="Screenshot 2024-06-15 at 11 31 19 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/a49b0d58-85f1-4510-adf1-bc86f30857ee">
@@ -38,8 +67,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
   
-- **Create our Resources**
-- Create Windows 10 Virtual Machine and Resource Group Simultaneously
+- Click Resources icon at home page
+- Select Create New Resource Group
+- Create Windows 10 Virtual Machine 
 - Create Linux(Ubuntu) VM in same Resource Group and Virtual Network
 </p>
 <br />
