@@ -20,7 +20,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create our Resources
+- Create Virtual Machines in Azure (Windows 10 and Linux)
 - Observe ICMP Traffic
 - Observe SSH Traffic
 - Observe DHCP Traffic
