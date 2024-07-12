@@ -44,7 +44,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p>
 <img width="300" alt="Screenshot 2024-07-11 at 11 05 49 AM" src="https://github.com/user-attachments/assets/6ec78856-9dc5-406b-bba1-6f8801aea1be">
-<img width="300" alt="Screenshot 2024-07-11 at 11 10 31 AM" src="https://github.com/user-attachments/assets/d897eef6-deb6-4f99-9da0-ac3d23ecec86">
+<img width="250" alt="Screenshot 2024-07-11 at 11 10 31 AM" src="https://github.com/user-attachments/assets/d897eef6-deb6-4f99-9da0-ac3d23ecec86">
 <img width="300" alt="Screenshot 2024-07-11 at 11 13 07 AM" src="https://github.com/user-attachments/assets/bcdb18d9-58ec-46f1-a1f4-2d0526d254b8">
 <img width="300" alt="Screenshot 2024-07-11 at 11 18 03 AM" src="https://github.com/user-attachments/assets/2f591390-2d1a-46f4-87fd-aee40bb9c4bb">
 <img width="300" alt="Screenshot 2024-06-15 at 11 25 47 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/38db5569-8e4e-4d28-8f8d-c98f43ff6483">
