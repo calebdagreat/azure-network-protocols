@@ -164,6 +164,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
 - **Observe ICMP Traffic cont.**
 - Initiate a perpetual/non-stop ping ("ping 10.0.0.5 -t") from your Windows 10 - "VM-1" to your Ubuntu VM - "VM2"
+- Observe and confirm that ICMP traffic is non-stop
 - Go to Microsoft Azure, search and open Network Security Groups, click Ubuntu VM - "VM2"
 - Add new security rules
 - Disable incoming (inbound) ICMP traffic
@@ -213,3 +214,30 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
+<p>
+<img width="300" alt="Screenshot 2024-07-11 at 12 37 05 PM" src="https://github.com/user-attachments/assets/9a6c9c3a-11c4-4745-b418-8344f8bba9a8">
+<img width="300" alt="Screenshot 2024-07-11 at 12 37 13 PM" src="https://github.com/user-attachments/assets/352d2344-2b86-4e11-806b-f3034246131f">
+<img width="300" alt="Screenshot 2024-07-11 at 12 37 34 PM" src="https://github.com/user-attachments/assets/778d72e2-d620-4f63-8fc8-9cebeda522ce">
+<img width="300" alt="Screenshot 2024-07-11 at 12 38 14 PM" src="https://github.com/user-attachments/assets/cef3584d-ea6d-4417-97d8-404f840fd188">
+<img width="300" alt="Screenshot 2024-07-11 at 12 39 21 PM" src="https://github.com/user-attachments/assets/fd68cc9e-b942-46d4-909f-e556ff2d592d">
+<img width="300" alt="Screenshot 2024-07-11 at 12 39 24 PM" src="https://github.com/user-attachments/assets/ec2e76a5-8696-4ce5-87f5-500e5483b969">
+<img width="300" alt="Screenshot 2024-07-11 at 12 40 40 PM" src="https://github.com/user-attachments/assets/e9f4d4ab-570e-4478-a5ec-ac3feee8d7e2">
+<img width="300" alt="Screenshot 2024-07-11 at 12 40 51 PM" src="https://github.com/user-attachments/assets/86c4e1e3-cdb5-475a-bb38-ce960615f226">
+<img width="300" alt="Screenshot 2024-07-11 at 12 42 58 PM" src="https://github.com/user-attachments/assets/d2d6902c-37ad-43e5-9517-e1b9f5edd066">
+
+</p>
+<p>
+  
+- **Lab Cleanup (DON'T FORGET THIS)**
+- Go to Start menu. Click Shut Down
+- Notice Remote Desktop Disconnects
+- Delete PC from Microsoft Remote Desktop program
+- Go to Microsoft Azure, Click "Tejanos" Resource Group
+- Delete "Tejanos"
+- Confirm Deletion
+- Click and Delete "NetworkWatcherRG" (This is a default Resource Group that is automatically created - BE SURE TO DELETE)
+- Confirm Deletion
+- Confirm All Resource Group are deleted by allowing time to delete and refreshing page
+- All Done!
+</p>
+<br />
