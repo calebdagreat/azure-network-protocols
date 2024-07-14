@@ -84,19 +84,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img width="300" alt="Screenshot 2024-06-15 at 12 16 16 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/f4f9b44e-92c8-47b4-af8f-7b77469d9dba">
+<img width="300" alt="Screenshot 2024-07-11 at 11 37 21 AM" src="https://github.com/user-attachments/assets/f8005dde-dab7-4969-8bda-6f029f98229b">
+<img width="300" alt="Screenshot 2024-07-11 at 11 38 02 AM" src="https://github.com/user-attachments/assets/52850906-6feb-4d8f-8dc3-4ab386fb1a1f">
+<img width="300" alt="Screenshot 2024-07-11 at 11 39 05 AM" src="https://github.com/user-attachments/assets/23deb618-bbb2-4cf8-96b6-d0feb222da00">
+<img width="803" alt="Screenshot 2024-07-11 at 11 39 24 AM" src="https://github.com/user-attachments/assets/ad04e953-acf5-4bb4-b689-6773b8d91365">
+<img width="300" alt="Screenshot 2024-07-11 at 11 39 42 AM" src="https://github.com/user-attachments/assets/3adfda55-c352-4dfc-bf9f-610fbacddbfc">
+<img width="300" alt="Screenshot 2024-07-11 at 11 39 49 AM" src="https://github.com/user-attachments/assets/273d8503-6258-4752-8c48-14c286438d45">
+<img width="300" alt="Screenshot 2024-07-11 at 11 40 06 AM" src="https://github.com/user-attachments/assets/4ea5544d-49a2-4971-862e-1f0347b2c7ad">
+<img width="300" alt="Screenshot 2024-07-11 at 11 42 06 AM" src="https://github.com/user-attachments/assets/c185c9e3-83f1-4faf-9d94-c799bf6edf8a">
+<img width="300" alt="Screenshot 2024-07-11 at 11 45 13 AM" src="https://github.com/user-attachments/assets/d0883579-1f45-4c7b-bfd9-1d9f44341cf5">
+
 </p>
 <p>
   
 - **Access Remote Desktop**
-- Open "Microsoft Remote Desktop"
-- Within your Windows 10 Virtual Machine, Install Wireshark
-- Open Wireshark and filter for ICMP traffic only
-- Retrieve the pricate IP address of the Ubuntu VM and attempt to ping a pubblic websire (such as www.google.com) and observe the traggic in WireShark
-- Initiate a perpetual/non-stop ping from your Windows 1- VM to your Ubuntu VM
-  1. Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
-  2. Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
-  3. Stop the ping activity
+- Open "Microsoft Remote Desktop" to access "VM-1" 
+- Click "Add PC"
+- Go to Virtual Machines and click VM-1 to access details. Copy the IP address of the "VM-1"
+- Click Connect
+- Log-in with username and password created for VM-1
+- You should be observing the Log In Screen 
 </p>
 <br />
 
