@@ -41,6 +41,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
 - Log-In to Microsoft Azure by going to https://portal.azure.com
 </p>
+<br />
+
 
 <p>
 <img width="300" alt="Screenshot 2024-07-11 at 11 05 49 AM" src="https://github.com/user-attachments/assets/6ec78856-9dc5-406b-bba1-6f8801aea1be">
@@ -58,6 +60,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create Windows 10 Virtual Machine inside of the created Resourse group ("VM-1")
 - Notice the details of the Virtual Machine 
 </p>
+<br />
 
 <p>
 <img width="300" alt="Screenshot 2024-07-11 at 11 12 07 AM" src="https://github.com/user-attachments/assets/c6c9d421-502c-496c-bdec-0b8ddea74cc9">
@@ -77,6 +80,23 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Go to "Networking" and make sure this VM is on the same Virtual Network as "VM-1"
 - Go on to "Review + Create" Virtual Machine
 - Go to Virtual Machines and observe both Virtual Machines are in same Resource Group
+</p>
+<br />
+
+<p>
+<img width="300" alt="Screenshot 2024-06-15 at 12 16 16 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/f4f9b44e-92c8-47b4-af8f-7b77469d9dba">
+</p>
+<p>
+  
+- **Access Remote Desktop**
+- Open "Microsoft Remote Desktop"
+- Within your Windows 10 Virtual Machine, Install Wireshark
+- Open Wireshark and filter for ICMP traffic only
+- Retrieve the pricate IP address of the Ubuntu VM and attempt to ping a pubblic websire (such as www.google.com) and observe the traggic in WireShark
+- Initiate a perpetual/non-stop ping from your Windows 1- VM to your Ubuntu VM
+  1. Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
+  2. Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
+  3. Stop the ping activity
 </p>
 <br />
 
