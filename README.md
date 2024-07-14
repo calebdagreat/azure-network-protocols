@@ -62,14 +62,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img width="300" alt="Screenshot 2024-07-11 at 11 12 07 AM" src="https://github.com/user-attachments/assets/c6c9d421-502c-496c-bdec-0b8ddea74cc9">
 <img width="300" alt="Screenshot 2024-07-11 at 11 23 41 AM" src="https://github.com/user-attachments/assets/c4c6dafd-0544-4f90-9c53-4dcfd4160ebf">
-<img width="300" alt="Screenshot 2024-06-15 at 11 31 19 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/a49b0d58-85f1-4510-adf1-bc86f30857ee">
+<img width="300" alt="Screenshot 2024-07-11 at 11 25 53 AM" src="https://github.com/user-attachments/assets/a5e989ce-c688-46d7-91a4-cfa14700d597">
+<img width="300" alt="Screenshot 2024-07-11 at 11 27 22 AM" src="https://github.com/user-attachments/assets/3fcb97f8-10a2-4be2-9f49-51dba18cd4b3">
+<img width="300" alt="Screenshot 2024-07-11 at 11 28 03 AM" src="https://github.com/user-attachments/assets/132d785e-8879-4ce3-83f3-6148212cfdb2">
+<img width="300" alt="Screenshot 2024-07-11 at 11 29 18 AM" src="https://github.com/user-attachments/assets/3b80699d-2a5e-4f02-bad7-abec48da7318">
 <img width="300" alt="Screenshot 2024-06-15 at 11 41 20 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/a156e00e-d00b-49e7-b2b5-8a61068ac63b">
 </p>
 <p>
 
 - Go to home page, Click "Virtual Machine"
 - Create Linux(Ubuntu) Virtual Machine ("VM2") in same Resource Group as VM-1 ("Tejanos")
-- Resource Groups and observe both Virtual Machines are in same Resource Group and Virtual Network 
+- Under "Administrator Account" and "Authentication Type" click "Password"
+- Create a username and password for this Linux VM
+- Go to "Networking" and make sure this VM is on the same Virtual Network as "VM-1"
+- Go on to "Review + Create" Virtual Machine
+- Go to Virtual Machines and observe both Virtual Machines are in same Resource Group
 </p>
 <br />
 
