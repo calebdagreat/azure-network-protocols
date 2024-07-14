@@ -87,7 +87,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="300" alt="Screenshot 2024-07-11 at 11 37 21 AM" src="https://github.com/user-attachments/assets/f8005dde-dab7-4969-8bda-6f029f98229b">
 <img width="300" alt="Screenshot 2024-07-11 at 11 38 02 AM" src="https://github.com/user-attachments/assets/52850906-6feb-4d8f-8dc3-4ab386fb1a1f">
 <img width="300" alt="Screenshot 2024-07-11 at 11 39 05 AM" src="https://github.com/user-attachments/assets/23deb618-bbb2-4cf8-96b6-d0feb222da00">
-<img width="803" alt="Screenshot 2024-07-11 at 11 39 24 AM" src="https://github.com/user-attachments/assets/ad04e953-acf5-4bb4-b689-6773b8d91365">
+<img width="300" alt="Screenshot 2024-07-11 at 11 39 24 AM" src="https://github.com/user-attachments/assets/ad04e953-acf5-4bb4-b689-6773b8d91365">
 <img width="300" alt="Screenshot 2024-07-11 at 11 39 42 AM" src="https://github.com/user-attachments/assets/3adfda55-c352-4dfc-bf9f-610fbacddbfc">
 <img width="300" alt="Screenshot 2024-07-11 at 11 39 49 AM" src="https://github.com/user-attachments/assets/273d8503-6258-4752-8c48-14c286438d45">
 <img width="300" alt="Screenshot 2024-07-11 at 11 40 06 AM" src="https://github.com/user-attachments/assets/4ea5544d-49a2-4971-862e-1f0347b2c7ad">
