@@ -142,7 +142,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Click Blue Fin in top left Corner to initiate observation of ethernet traffic
 - Within search bar of Wireshark filter for ICMP traffic only
 - Go to Microsoft Azure homepage and access Virtual Machines page. Click on VM2 to access details 
-- Retrieve the private IP address of the Ubuntu VM and attempt to ping a pubblic website (such as www.google.com) and observe the traffic in WireShark
+- Retrieve the private IP address of the Ubuntu VM (in this case = 10.0.0.5.)
+- Open Powershell to attempt to ping Ubuntu Server ("VM2"). type "ping 10.0.0.5" (or whatever the private address is you are working with)
+- Observe Traffic in Wireshark
+
 </p>
 <br />
 
@@ -158,8 +161,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
   
-- **Observe ICMP Traffic**
-- Initiate a perpetual/non-stop ping from your Windows 1- VM to your Ubuntu VM
+- **Observe ICMP Traffic cont.**
+- Initiate a perpetual/non-stop ping ("ping 10.0.0.5 -t") from your Windows 10 - "VM-1" to your Ubuntu VM - "VM2"
   1. Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
   2. Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
   3. Stop the ping activity
