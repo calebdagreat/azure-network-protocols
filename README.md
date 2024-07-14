@@ -103,7 +103,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Go to Virtual Machines and click VM-1 to access details. Copy the IP address of the "VM-1"
 - Click Connect
 - Log-in with username and password created for VM-1, Click "Continue"
-- You should be observe the Log In Screen, then the Desktop
+- You should observe the Log In Screen, then the Desktop
 - Go to a web browser to access www.wireshark.org to prepare for next step 
 </p>
 <br />
