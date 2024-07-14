@@ -139,10 +139,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - **Observe ICMP Traffic**
 - Click Blue Fin in top left Corner to initiate observation of ethernet traffic
 - Within search bar of Wireshark filter for ICMP traffic only
-- Go to Microsoft Azure homepage and access Virtual Machines page. Click on VM2 to access details 
-- Retrieve the private IP address of the Ubuntu VM (in this case = 10.0.0.5)
-- Open commandline or Powershell to ping Ubuntu Server ("VM2"). Type "ping 10.0.0.5" (or whatever the private address is you are working with) and Click Enter
-- Observe Traffic in Wireshark
+  1. Go to Microsoft Azure homepage and access Virtual Machines page. Click on VM2 to access details 
+  2. Retrieve the private IP address of the Ubuntu VM (in this case = 10.0.0.5)
+  3. Open commandline or Powershell to ping Ubuntu Server ("VM2"). Type "ping 10.0.0.5" (or whatever the private address is you are working with) and Click Enter
+  4. Observe Traffic in Wireshark
 - Ping a public website such as (www.google.com) observe traffic within Wireshark. (type "ping www.google.com" and click enter)
 
 </p>
@@ -164,9 +164,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
 - **Observe ICMP Traffic cont.**
 - Initiate a perpetual/non-stop ping ("ping 10.0.0.5 -t") from your Windows 10 - "VM-1" to your Ubuntu VM - "VM2"
-  1. Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
-  2. Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
-  3. Stop the ping activity
+- Go to Microsoft Azure, search and open Network Security Groups, click Ubuntu VM - "VM2"
+- Add new security rules
+- Disable incoming (inbound) ICMP traffic
+- Go Back to Remote Desktop - Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should STOP start working)
+- Go back to VM2 Network Security and Allow ICMP activity
+- Observe ICMP traffic in Wireshark 
+- Stop the ping activity (press Control+C on keyboard)
 </p>
 <br />
 
