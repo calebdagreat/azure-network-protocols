@@ -129,12 +129,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
+<img width="250" alt="Screenshot 2024-07-11 at 12 01 44 PM" src="https://github.com/user-attachments/assets/0cec56b0-6381-4009-8dc9-4c3324b64e4a">
 <img width="250" alt="Screenshot 2024-06-15 at 11 56 28 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/ef0f0367-14b5-4815-ab4c-e6469fb25dca">
 <img width="250" alt="Screenshot 2024-06-15 at 11 59 13 AM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/a0d36863-7b8f-451e-ac2e-b2b57c080811">
 <img width="250" alt="Screenshot 2024-06-15 at 12 00 01 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/07a91633-518c-45c2-859e-ddbc172d7817">
-<img width="250" alt="Screenshot 2024-06-15 at 12 01 20 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/ab73987c-8a97-45bb-97fa-6fb7110fbb88">
-<img width="250" alt="Screenshot 2024-06-15 at 12 08 15 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/ef9b96d2-1418-4c3b-83ee-412ab0ea13a3">
-<img width="250" alt="Screenshot 2024-06-15 at 12 03 09 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/1a0dab20-f1cb-46e4-959d-1772b17fb922">
 </p>
 <p>
   
@@ -142,15 +140,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Click Blue Fin in top left Corner to initiate observation of ethernet traffic
 - Within search bar of Wireshark filter for ICMP traffic only
 - Go to Microsoft Azure homepage and access Virtual Machines page. Click on VM2 to access details 
-- Retrieve the private IP address of the Ubuntu VM (in this case = 10.0.0.5.)
-- Open Powershell to attempt to ping Ubuntu Server ("VM2"). type "ping 10.0.0.5" (or whatever the private address is you are working with)
+- Retrieve the private IP address of the Ubuntu VM (in this case = 10.0.0.5)
+- Open commandline or Powershell to ping Ubuntu Server ("VM2"). Type "ping 10.0.0.5" (or whatever the private address is you are working with) and Click Enter
 - Observe Traffic in Wireshark
+- Ping a public website such as (www.google.com) observe traffic within Wireshark. (type "ping www.google.com" and click enter)
 
 </p>
 <br />
 
 <p>
 
+<img width="250" alt="Screenshot 2024-06-15 at 12 01 20 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/ab73987c-8a97-45bb-97fa-6fb7110fbb88">
+<img width="250" alt="Screenshot 2024-06-15 at 12 08 15 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/ef9b96d2-1418-4c3b-83ee-412ab0ea13a3">
 <img width="250" alt="Screenshot 2024-06-15 at 12 03 09 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/1a0dab20-f1cb-46e4-959d-1772b17fb922">
 <img width="250" alt="Screenshot 2024-06-15 at 12 03 22 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/34401bd4-9ed2-4b90-9a65-daf85cc683cd">
 <img width="250" alt="Screenshot 2024-06-15 at 12 12 50 PM" src="https://github.com/calebdagreat/azure-network-protocols/assets/171304036/2c351ae9-d8e1-47cd-aee5-214ca4899b44">
